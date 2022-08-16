@@ -1,0 +1,428 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+ *{
+ 	   font-family : 'Nanum Gothic';
+       font-family: 'Noto Sans KR', sans-serif;
+       list-style : none;
+       text-decoration : none;
+       border-collapse: collapse;
+       margin :0px;
+       padding : 0px;
+       color:#000;
+}
+
+.wrap { 
+	background-color : #fff;
+	
+} 
+h1{
+	   
+       font-size:10px;
+       font-weight: 100;
+       margin-bottom:40px;
+}
+
+
+
+.intro_bg{
+       background-image: url("../images/intro4.jpg");
+       width :1920px;
+       height: 359px;
+}
+
+.header{
+       display:flex;
+       width:1280px;
+       height : 86px;      
+       margin :auto;
+}
+.nav{
+       display:flex;
+       justify-content: flex-end;
+       width :calc(1280px - 50px);
+       background:  rgba(0,0,0,0.0);
+       line-height : 86px;
+}
+
+.nav > li{
+       margin-left:84px;
+}
+.nav > li > a{
+       color: white;
+}
+.statement {
+       display: flex;
+       background: rgba(0,0,0,0.0);
+       width:492px;
+       margin : 231px auto;
+       height:57px;
+       text-align: center;
+       font: normal normal 200 20px/24px Apple SD Gothic Neo;
+}
+
+.intro_text{
+       
+       width:100%;
+       margin:231px auto 231px auto;
+       text-align:center;
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+       color:#fff;
+}
+.amount{
+       position :relative;
+       top : -66px;
+       display:flex;
+       background: #fff;
+       width:1280px;
+       margin:auto;
+       text-align: center;
+       height :132px;
+       line-height: center;
+       box-shadow: 0px 0px 10px rgba(0,0,1,0.3);
+       border-radius:14px;
+}
+.amount > li {
+       flex :1;
+}
+.amount > li > div {      
+       height: 57px;
+       color : #fff;
+       margin-top: 37px;
+}
+
+.amount > li:not(:last-child)  > div {
+       border-right: 1px solid #E1E1E1;       
+}
+
+.contents2{
+       font-size: 20px;
+       
+}
+
+.mainContents {
+       display: flex;
+}
+
+.dropdown {
+	margin-right : 80px;
+}
+
+
+.dropdown > a {
+	height : 30px;
+}
+
+
+.mainContents > li {
+
+       width:270px;
+       position :relative;
+       top:-20px;
+       flex:1;
+       background: #f1f1f1;  
+       margin:auto 15px 40px 0px;
+       
+       
+       
+} 
+.mainContents > li:first-child {
+       margin-left : 350px;
+}
+.mainContents > li:last-child {
+       margin-right : 350px;
+}
+
+
+
+.mainContents > li > div{
+       padding: 100px auto 80px auto ;
+       font-size: 25px;
+       
+          
+}
+.main_bg{
+       margin : auto;
+       margin-top: -132px;
+       background:#fff;
+       
+       height:501px;
+       text-align: center;
+       
+}
+
+.mainContents > li {
+	background: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,2,0.5);
+	height:330px;
+	width:330px;
+	padding:0;
+	
+	border-radius:15px;
+}
+
+
+.mainContents >li>a {
+	margin-top:33px;
+}
+
+.mainContents > li > div {
+		border-radius:15px;
+}
+
+.mainContents > li > button {
+       font-size: 12px;
+       padding : 12px 30px 12px 30px;
+       border-radius: 3px;
+       background: blue;
+       color: #fff;
+       margin-bottom : 20px;
+
+}
+
+
+.main_bg > h1{
+       font-size: 50px;
+       padding-top : 70px;
+}
+
+.main_bg > h4{
+       font-size: 20px;
+       padding-top : 15px;
+       padding-bottom: 45px;
+}
+
+.icons{
+       display: flex;
+       width:1280px;
+       margin: auto;
+}
+
+.icons > li {
+       flex:1;
+      margin-top:49px;
+      height:302px;
+      background: white;
+      
+}
+
+
+.icons li:not(:last-child ) {
+
+       margin-right: 20px;
+}
+
+
+.mainContents .contents0{
+       text-align: center;
+       font-size: 14px;
+       font-weight: 100;
+       width:200px;
+       margin-left : 65px;
+       margin-bottom : 5px;
+       
+}
+
+
+.mainContents .contents1{
+       font-size: 14px;
+       font-weight: 100;
+       width:200px;
+       margin-left : 60px;
+       margin-bottom : 5px;
+}
+
+
+.mainContents .contents2{
+       font-size: 14px;
+       font-weight: 100;
+       width:270px;
+       margin-left : 40px;
+       margin-bottom : 5px;
+}
+
+
+.maintext_01{
+       width:1920px;
+       height:500px  ;
+       
+       margin : auto;
+       text-align: center;
+       margin-bottom: 90px;
+}
+.maintext_01 .hue {
+       width:1280px;
+       height: 426px;
+       background: white;
+       display: flex;
+       margin :auto;
+       margin-top: 80px;
+       
+
+}
+
+.image_01{
+       width:630px;
+       height:420px;
+       
+       
+}
+.text_01{
+	   font-size:18px;
+       width:640px;
+       height: 420px;
+       text-align :left;
+       padding-left: 20px;
+} 
+
+.hue .text_01 >h2{
+       padding : 20px;
+} 
+
+
+.main3 {
+	
+	height:170px;
+	
+	
+}
+
+
+
+
+
+.maintext_02 {
+	   margin-top:130px;
+       height :280px;
+       width :1920px;
+       
+       display: flex;
+}
+
+.maintext_02 .contact_image {
+       flex:1;
+       width :960px;
+       background-image: url(../images/contact.png);
+}
+
+.maintext_02 > ul {
+       display: flex;
+       text-align: center;
+       padding-top: 134px;
+} 
+.maintext_02 > ul >li {
+       flex : 1;
+       text-align:left;
+}
+
+.maintext_02 > ul >li > div > h1 , 
+.maintext_02 > ul >li > div {
+       color:#fff;
+}
+
+.maintext_02 > ul >li > div > h1{
+	font-size:33px;
+}
+
+
+.more2 {
+       width :220px;
+       height: 40px;
+       line-height: 40px;
+       margin: 17px auto;
+       border : 1px solid #fff;
+       cursor :pointer;
+}
+
+.footer {
+       background: #1f1f1f;
+       display: flex;
+       width: 1920px;
+       padding:30px;
+
+}
+
+.footer > div:first-child{
+       flex:3;       
+       color:#fff;
+       margin: auto;
+       text-align: center;
+       font-size: 60px;
+}
+
+.footer > div:last-child{
+       flex:9;
+       color:#fff;
+       
+}   
+
+
+
+.manu-bar{
+	text-align:right;
+	padding :0px;
+	margin-right:90px;	
+}
+
+
+.manu-bar > ul{
+	display : inline-flex;
+	list-style:none;
+	color: #fff;
+}
+
+.manu-bar > ul > li{
+	width:120px;
+	margin:15px;
+	padding: 12px;
+	
+	
+	}
+	
+.manu-bar > ul > li > a{
+	
+	text-decoration:none;
+	color : #fff;
+	}
+	
+.manu-bar > ul > li:hover{
+	border-radius:3px;
+	
+}
+
+.sub_menu{
+	display:none;	
+	padding:0px;
+	
+}
+.sub_menu > ul > li > a{
+	padding:0px;
+	color:#fff;
+
+}
+.manu-bar > ul > li:hover .sub_menu{
+	display:block;
+	margin-top:15px;
+	margin-left:-20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
